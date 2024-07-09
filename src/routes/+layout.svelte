@@ -7,7 +7,7 @@
 <header class="fixed inset-x-0 top-0 z-10">
 	<!-- START: Navigation Bar -->
 	<nav
-		class="mx-auto flex h-24 items-center justify-between border-b border-[#694E41]/25 bg-[#faeee5] px-44 shadow-sm"
+		class="mx-auto flex h-24 items-center justify-between border-b border-[#694E41]/25 bg-[#faeee5] px-20 shadow-sm sm:px-44"
 	>
 		<!-- START: Logo -->
 		<a href="./" class="select-none">
@@ -24,6 +24,11 @@
 		<!-- END: Nav Buttons -->
 	</nav>
 	<!-- END: Navigation Bar -->
+	<div class="flex h-10 w-full bg-[#7b5e50] drop-shadow-lg">
+		<p class="mx-auto my-auto font-cormorant text-[1.37rem] italic text-[#faeee5]">
+			a feminine homemaker blogging on women's issues
+		</p>
+	</div>
 </header>
 <!-- END: Header -->
 
