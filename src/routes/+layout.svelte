@@ -7,7 +7,7 @@
 <header class="fixed inset-x-0 top-0 z-10">
 	<!-- START: Navigation Bar -->
 	<nav
-		class="mx-auto flex h-24 items-center justify-between border-b border-[#694E41]/25 bg-[#faeee5] px-56 shadow-sm"
+		class="mx-auto flex h-24 items-center justify-between border-b border-[#694E41]/25 bg-[#faeee5] px-44 shadow-sm"
 	>
 		<!-- START: Logo -->
 		<a href="./" class="select-none">
