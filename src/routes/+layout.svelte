@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import logo from '$lib/img/logo.webp';
 </script>
 
 <!-- START: Header (displayed on every single screen) -->
@@ -10,7 +11,7 @@
 	>
 		<!-- START: Logo -->
 		<a href="./" class="select-none">
-			<img src="src/lib/img/logo.webp" alt="logo" class="h-[5.25rem]" />
+			<img src={logo} alt="logo" class="h-[5.25rem]" />
 		</a>
 		<!-- END: Logo -->
 
