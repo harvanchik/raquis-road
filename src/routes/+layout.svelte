@@ -26,7 +26,7 @@
 	<!-- END: Navigation Bar -->
 	<div class="flex h-10 w-full bg-[#7b5e50] drop-shadow-lg">
 		<p class="mx-auto my-auto font-cormorant text-[1.37rem] italic text-[#faeee5]">
-			a feminine homemaker blogging on women's issues
+			embrace a journey of faith, wellness, and womanhood
 		</p>
 	</div>
 </header>
