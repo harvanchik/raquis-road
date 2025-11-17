@@ -1,3 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Crimson+Text:wght@400;600&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@layer base {
+	:root {
+		font-family: 'Crimson Text', Georgia, serif;
+		--shell: #fdf6f2;
+		--canvas: #f7ebe4;
+		--card: #fff8f4;
+		--panel: #f1e0d7;
+		--border: #e7cfc5;
+		--ink: #4d2c27;
+		--ink-soft: #6b3f38;
+		--ink-muted: #8a665e;
+		--accent: #c69282;
+		--accent-strong: #a56355;
+		background-color: var(--shell);
+		color: var(--ink-soft);
+	}
+
+	body {
+		@apply antialiased;
+		background-color: var(--shell);
+		color: var(--ink-soft);
+		margin: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Playfair Display', 'Times New Roman', serif;
+		color: var(--ink);
+		letter-spacing: -0.01em;
+	}
+
+	p,
+	li {
+		line-height: 1.7;
+	}
+
+	::selection {
+		background-color: var(--accent);
+		color: #fff;
+	}
+}
+
+@layer utilities {
+	.font-display {
+		font-family: 'Playfair Display', 'Times New Roman', serif;
+		letter-spacing: -0.01em;
+	}
+
+	.bg-shell {
+		background-color: var(--shell);
+	}
+
+	.bg-canvas {
+		background-color: var(--canvas);
+	}
+
+	.bg-card {
+		background-color: var(--card);
+	}
+
+	.bg-panel {
+		background-color: var(--panel);
+	}
+
+	.bg-accent {
+		background-color: var(--accent);
+	}
+
+	.bg-accent-strong {
+		background-color: var(--accent-strong);
+	}
+
+	.text-ink {
+		color: var(--ink);
+	}
+
+	.text-ink-soft {
+		color: var(--ink-soft);
+	}
+
+	.text-muted {
+		color: var(--ink-muted);
+	}
+
+	.text-accent {
+		color: var(--accent-strong);
+	}
+
+	.border-brand {
+		border-color: var(--border);
+	}
+
+	.scrollbar-soft {
+		scrollbar-width: thin;
+		scrollbar-color: var(--accent) transparent;
+	}
+
+	.scrollbar-soft::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.scrollbar-soft::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.scrollbar-soft::-webkit-scrollbar-thumb {
+		background-color: var(--accent);
+		border-radius: 9999px;
+	}
+}
